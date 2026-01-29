@@ -7,8 +7,8 @@ Bu depo, 14 gün sürecek yoğunlaştırılmış Doğal Dil İşleme (NLP) yolcu
 | Gün | Konu | Kullanılan Teknolojiler | Durum |
 |:---:|:---|:---|:---:|
 | **1** | **Metin Ön İşleme & Prototip** | NLTK, Zeyrek, Scikit-Learn | ✅ Tamamlandı |
-| **2** | **Büyük Veri & Pandas Analizi** | Pandas, Matplotlib | ⏳ Sırada |
-| **3** | **Vektörleştirme (TF-IDF)** | Scikit-Learn | ⏳ Beklemede |
+| **2** | **Büyük Veri & Pandas Analizi** | Pandas, Matplotlib | ✅ Tamamlandı |
+| **3** | **Vektörleştirme (TF-IDF)** | Scikit-Learn | ⏳ Sırada |
 | **4** | **Sınıflandırma Modelleri** | Logistic Regression | ⏳ Beklemede |
 
 ---
