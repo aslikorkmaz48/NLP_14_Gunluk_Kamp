@@ -1,34 +1,24 @@
-# 🚀 14 Günlük Uygulamalı NLP Kampı
+# 🏔️ NLP Kampı: Adım Adım Doğal Dil İşleme
 
-Bu depo, 14 gün sürecek yoğunlaştırılmış Doğal Dil İşleme (NLP) yolculuğumdaki tüm teknik çalışmaları, projeleri ve veri setlerini içermektedir. Kamp boyunca her gün yeni bir teknik öğrenerek, gerçek dünya verileri üzerinde Türkçe NLP modelleri geliştiriyorum.
+Bu depo, NLP dünyasına giriş yaptığım ve her gün yeni bir teknik öğrendiğim gelişim yolculuğumu içermektedir. 
 
-## 📅 Kamp Programı ve İlerleme Durumu
+## 🚀 Kamp Günlüğü
 
-| Gün | Konu | Kullanılan Teknolojiler | Durum |
-|:---:|:---|:---|:---:|
-| **1** | **Metin Ön İşleme & Prototip** | NLTK, Zeyrek, Scikit-Learn | ✅ Tamamlandı |
-| **2** | **Büyük Veri & Pandas Analizi** | Pandas, Matplotlib | ✅ Tamamlandı |
-| **3** | **Vektörleştirme (TF-IDF)** | Scikit-Learn | ⏳ Sırada |
-| **4** | **Sınıflandırma Modelleri** | Logistic Regression | ⏳ Beklemede |
+### 🟢 1. Gün: Temeller ve Python
+- Metin verilerini Python ile manipüle etme.
+- Noktalama işaretleri ve sayıların temizlenmesi (Preprocessing).
 
----
+### 🟡 2. Gün: Büyük Veri ve Morfoloji
+- **Veri Seti:** 3000+ satırlık sentetik müşteri yorumu.
+- **Zeyrek:** Türkçe kök bulma (Lemmatization) algoritmaları.
+- **Analiz:** Kelime frekansları üzerinden "Acil Çözülmesi Gereken Sorunlar" raporu.
 
-## 🛠️ Günlük Teknik Detaylar
-
-### 🔹 1. Gün: Türkçe Metin Ön İşleme Hattı (Pipeline)
-NLP projelerinin en kritik aşaması olan "Veri Temizleme" üzerine odaklanıldı. 
-- **Tokenizasyon:** Metinler kelime birimlerine ayrıldı.
-- **Morfolojik Analiz (Lemmatization):** Türkçe'nin eklemeli yapısı nedeniyle `Zeyrek` kütüphanesi kullanılarak kelimeler köklerine indirgenmiştir.
-- **Stop-words Temizliği:** Analiz için değersiz olan bağlaç ve ekler (`ve`, `ama`, `ki` vb.) temizlendi.
-- **Vektörleştirme:** `TF-IDF` (Term Frequency-Inverse Document Frequency) yöntemi ile metinler sayısal matrislere dönüştürüldü.
-- **Tahmin:** İlk prototip model ile basit bir duygu analizi gerçekleştirildi.
-
-
+### 🔴 3. Gün: Makine Öğrenmesi (Sentiment Analysis)
+- **Vektörleştirme:** TF-IDF ile metinleri matematiksel değerlere dönüştürme.
+- **Model:** Logistic Regression kullanarak Duygu Analizi modeli eğitildi.
+- **Başarı:** Veri gürültüsü temizlenerek **%100 doğruluk** skoruna ulaşıldı.
+- **Görselleştirme:** Matplotlib ile müşteri memnuniyet grafikleri oluşturuldu.
 
 ---
-
-## 💻 Nasıl İnceleyebilirim?
-Tüm çalışmalar Google Colab üzerinde geliştirilmiştir. Repo içerisindeki `.ipynb` dosyalarına tıklayarak kodları ve analiz sonuçlarını doğrudan tarayıcı üzerinden inceleyebilirsiniz.
-
----
-**Geliştiren:** [Aslı Korkmaz](https://github.com/aslikorkmaz48)
+**Geliştirici:** Aslı Korkmaz  
+**Durum:** Kamp Devam Ediyor... 🏕️
